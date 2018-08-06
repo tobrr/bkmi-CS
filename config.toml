@@ -1,6 +1,6 @@
-baseURL = "18.188.106.184"
+baseURL = ""
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Baukoma-Marketimpact"
 theme = "airspace-hugo"
 
 
