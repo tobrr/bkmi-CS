@@ -12,36 +12,36 @@ theme = "airspace-hugo"
     url = "/work"
   [[menu.header]]
     weight = 3
-    name = "Blog"
+    name = "News"
     url = "/blog"
   [[menu.header]]
     weight = 4
-    name = "Service"
+    name = "Dienstleistungen"
     url = "/service"
   [[menu.header]]
     weight = 5
-    name = "Contact"
+    name = "Kontakt"
     url = "/contact"
 
   [[menu.footer]]
     weight = 1
-    name = "About us"
+    name = "Über uns"
     url = "#"
   [[menu.footer]]
     weight = 2
-    name = "Contact us"
+    name = "Kontakt"
     url = "#"
   [[menu.footer]]
     weight = 3
-    name = "How it works"
+    name = "Events"
     url = "#"
   [[menu.footer]]
     weight = 4
-    name = "Blog"
+    name = "News"
     url = "#"
   [[menu.footer]]
     weight = 5
-    name = "Terms"
+    name = "Impressum"
     url = "#"
 
 # The site's parameters
@@ -57,14 +57,15 @@ theme = "airspace-hugo"
 
   [params.slider]
     enable = true
-    title = "A digital marketing &amp; design agency"
-    subtitle = "We love the Web and the work we do.<br/>We work closely with our clients to deliver the best possible solutions for their needs"
+    title = "b,m!"
+    subtitle = "subtitle"
+    logo = "/img/logo.png"
 
   [params.wrapper]
     enable = true
-    title = "About Us"
-    italic = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
-    paragraph = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id"
+    title = "Über Baukoma-Marketimpact"
+    italic = "Sie wollten schon immer gelben Kaffee, grüne Schokolade, rote Bananen oder blaue Zitronen ausprobieren? Bei uns sind Sie genau an der richtigen und kreativen Adresse."
+    paragraph = "Die Baukoma-Marketimpact AG versteht sich als Marketingspezialistin für Unternehmen rund ums Bauen. Dazu gehören Handwerksbetriebe aller Art, Betriebe aus der Baustoffindustrie, Architekturbüros, Transport- und Materiallogistiker im Baubereich, Immobilienbüros, usw.     Dank jahrelanger Branchenkenntnissen, Einblicken in die Firmen und ihre Entscheidungswege auf Kader- und Inhaberebene ist die Baukoma-Marketimpact AG in der Lage, ihren Kunden einen umfassenden Mehrwert zu bieten. Schnelle, direkte und unkomplizierte, den Bedürfnissen und dem Tempo des Bauens angepasste Lösungen. Von der Beratung und Planung bis zur Durchführung; alles aus einer Hand rund ums Bauen und Wohnen!"
 
   [params.blog]
     enable = true
@@ -73,8 +74,8 @@ theme = "airspace-hugo"
 
   [params.feature]
     enable = true
-    title = "We believe in great ideas"
-    content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+    title = "Unser Team"
+    content = "Das Team der Baukoma AG mit seinem vielfältigen Angebot und der langjährigen Erfahrung, versteht sich als Generalunternehmer in der Welt des Marketings und der Kommunikation. Mit Spezialisten in allen Bereichen sind wir Ihr idealer Partner für eine langfristige und nachhaltige Zusammenarbeit. Auch bei aussergewöhnlichen Projekten können wir Sie dank unserem grossen Netzwerk an ausgewiesenen Partnern ideal begleiten. Wir haben uns zum Ziel gesetzt, Sie persönlich und professionell in der Umsetzung Ihrer Aufgaben zu unterstützen."
     [params.feature.button]
       caption = "View Works"
       url = "#"
@@ -86,18 +87,18 @@ theme = "airspace-hugo"
 
   [params.contact]
     enable = true
-    title = "Drop us a note"
-    subtitle = "Don’t just take our word for it. Check out some of our latest work."
+    title = "Konntaktieren Sie uns"
+    subtitle = "Hinterlassen Sie uns eine unverbindliche Anfrage und wir melden uns schon bald bei Ihnen."
     [params.contact.form]
-      name = "Your name"
-      email = "Your email"
-      subject = "Your subject"
-      message = "Your message"
-      button = "Send message"
+      name = "Ihr Name"
+      email = "Ihre E-Mail"
+      subject = "Ihr Anliegen"
+      message = "Ihre Nachricht"
+      button = "Absenden"
     [params.contact.box]
-      title = "Stop by for a visit"
-      address = "North Main Street, Brooklyn Australia"
-      email = "Email: contact@mail.com"
-      phone = "Phone: +88 01672 506 744"
+      title = "Baukoma-Marketimpact"
+      address = "Rainackerstrasse 4 . Postfach 111 . 4562 Biberist . "
+      email = "info@baukoma.ch"
+      phone = "T +41 31 755 85 84 . F +41 31 755 85 82"
     [params.contact.gmaps]
-      title = "We Also Count in Google Maps"
+      title = "Unser Standort"

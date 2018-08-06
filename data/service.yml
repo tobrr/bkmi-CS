@@ -1,45 +1,46 @@
 enable: true
-title: Our Services
+title: Unsere Dienstleistungen
 subtitle: >
-  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
+  Bei uns stehen Kreativität, Fachwissen und Effizienz an erster Stelle. Zusammen sind wir ein Team und verfolgen ein Ziel, nämlich erfolgreich zu sein. Wir arbeiten als Fullservice-Agentur oder begleiten Sie modular in den von Ihnen gewünschten Bereichen.
 content:
 
-  - icon: ion-coffee
+  - icon: ion-fireball
     name: Branding
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      Modernes Kommunikationsdesign beinhaltet verschiedene Bereiche, wie beispielsweise das traditionelle Grafikdesign, Web-Konzepte bis hin zu den sozialen Medien.
 
-  - icon: ion-compass
+  - icon: ion-earth
     name: Web Design
     text: >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
 
-  - icon: ion-image
-    name: App Design
+  - icon: ion-bowtie
+    name: Events
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      Firmenjubiläen, Tage der offenen Türen, Generalversammlungen oder andere Veranstaltungen. Wir begleiten Sie nach Ihren individuellen Wünschen und unter Berücksichtigung der Budgets. 
 
-  - icon: ion-bug
-    name: Start Up
+  - icon: ion-wand
+    name: Produktion
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      Wir arbeiten vorwiegend als Fullservice-Agentur. Somit haben Sie mit uns einen Ansprechpartner auf den Sie sich gänzlich verlassen können. Wir arbeiten mit auserwählten Partnern zusammen, koordinieren Termine und garantieren so höchste Qualitätsansprüche.
 
-  - icon: ion-headphone
-    name: Logo Design
+  - icon: ion-pull-request
+    name: Marketing
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      Ein wirkungsvolles Marketing und die zielgruppenorientierte Kommunikation können nicht standardisiert werden. Wir analysieren zusammen Ihre individuelle Situation, strukturieren und erarbeiten die Ziele und setzen diese mit Ihnen um.
 
   - icon: ion-leaf
     name: Development
     text: >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
 
-  - icon: ion-planet
-    name: Brand Identity
+  - icon: ion-pull-request
+    name: Consulting
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      Seit vielen Jahren beraten und begleiten wir Unternehmen in verschiedenen Funktionen. Unser Spezialgebiet ist alles "rund ums Bauen", aber wir beraten auch Unternehmen aus allen anderen Bereichen kompetent.
 
-  - icon: ion-earth
-    name: Brand Identity
+  - icon: ion-camera
+    name: Fotografie
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      «Die andere Art gesehen zu werden»
+      Unter diesem Motto halten wir Ihre wichtigsten Momente fest. Ihre Mitarbeitenden, Geschäfts- und Produktionsräume, Bauwerke und Events werden bildlich in einem guten Licht dastehen. Die Aufnahmen machen wir entweder bei uns im Fotostudio oder am Ort des Geschehens. Professionelle und eindrucksvolle Bilder, die für sich und für Sie sprechen.
