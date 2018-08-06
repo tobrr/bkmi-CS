@@ -1,4 +1,4 @@
-baseURL = "bkmi.ch"
+baseURL = ""
 languageCode = "de-ch"
 title = "Baukoma-Marketimpact"
 theme = "airspace-hugo"
