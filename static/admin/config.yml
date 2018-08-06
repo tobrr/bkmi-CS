@@ -12,7 +12,7 @@ public_folder: "img"
 collections: # A list of collections the CMS should be able to edit
   - name: "docs" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Docs" # Used in the UI, ie.: "New Post"
-    folder: "bkmi/content/docs" # The path to the folder where the documents are stored
+    folder: "/content/docs" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
@@ -22,7 +22,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "blog"
     label: "Blog"
     label_singular: "Post"
-    folder: "bkmi/content/blog"
+    folder: "/content/blog"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
