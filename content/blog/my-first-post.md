@@ -1,7 +1,7 @@
 ---
 title: "My First Post"
 date: 2018-08-06T04:04:33Z
-draft: true
+draft: false
 ---
 
 # _Airspace_ for Hugo
