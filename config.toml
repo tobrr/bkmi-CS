@@ -1,7 +1,8 @@
-baseURL = "https://www.bkmi.ch/"
+baseURL = ""
 languageCode = "de-ch"
 title = "Baukoma-Marketimpact"
-theme = "airspace-hugo"
+#theme = "airspace-hugo"
+theme = "hugo-elate-theme"
 
 
 [menu]
