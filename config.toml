@@ -1,4 +1,4 @@
-baseURL = "public"
+baseURL = "/"
 languageCode = "de-ch"
 title = "Baukoma-Marketimpact"
 #theme = "airspace-hugo"
