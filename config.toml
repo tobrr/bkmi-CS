@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://www.baukoma-marketimpact.ch/"
 languageCode = "de-ch"
 title = "Baukoma-Marketimpact"
 #theme = "airspace-hugo"
