@@ -1,8 +1,8 @@
-#baseURL = "https://www.baukoma-marketimpact.ch/"
+baseURL = "https://www.baukoma-marketimpact.ch/"
 languageCode = "de-ch"
 title = "Baukoma-Marketimpact"
-#theme = "airspace-hugo"
-theme = "hugo-elate-theme"
+theme = "airspace-hugo"
+#theme = "hugo-elate-theme"
 
 
 [menu]
