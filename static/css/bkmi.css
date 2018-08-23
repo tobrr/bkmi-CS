@@ -1,0 +1,36 @@
+.logo.bkmi {
+    background-color: white;
+    width: 9em;
+    padding: 1.3em 0em;
+    margin: -3em auto 0 auto;
+}
+
+
+.logo.bkmi img {
+    width: 200px;
+}
+
+#fh5co-intro .fh5co-block > .fh5co-text .fh5co-intro-icon {
+    font-size: 50px;
+    color: #cd5c61;
+    margin-bottom: 30px;
+    display: block;
+}
+
+
+#fh5co-home .gradient {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    opacity: .1;
+    -webkit-backface-visibility: hidden;
+    background-color: #c24d67;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…AiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
+    background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #7b3f75), color-stop(1, #c24d67));
+    background-image: -webkit-repeating-linear-gradient(top left, #7b3f75 0%, #c24d67 100%);
+    background-image: repeating-linear-gradient(to bottom right, #7b3f75 0%, #c24d67 100%);
+    background-image: -ms-repeating-linear-gradient(top left, #7b3f75 0%, #c24d67 100%);
+}
