@@ -214,6 +214,8 @@ theme = "hugo-elate-theme"
       title = "Project 6"
       subtitle = "Design"
 
+
+
   # Testimonials section
   [params.testimonials]
     enable = true
@@ -244,32 +246,56 @@ theme = "hugo-elate-theme"
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Unsere Dienstleistungen"
+    description = "Bei uns stehen Kreativität, Fachwissen und Effizienz an erster Stelle. Zusammen sind wir ein Team und verfolgen ein Ziel, nämlich erfolgreich zu sein. Wir arbeiten als Fullservice-Agentur oder begleiten Sie modular in den von Ihnen gewünschten Bereichen."
 
     [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-anchor"
-
-    [[params.services.item]]
-      title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-layers2"
-    [[params.services.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-video2"
-
-    [[params.services.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
-      icon = "icon-monitor"
+      title = "Consulting"
+      description = "Seit vielen Jahren beraten und begleiten wir Unternehmen in verschiedenen Funktionen. Unser Spezialgebiet ist alles 'rund ums Bauen', aber wir beraten auch Unternehmen aus allen anderen Bereichen kompetent."
+      icon = "icon-stethoscope"
       
     [[params.services.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
-      icon = "icon-monitor"
+      title = "Strategie und Branding"
+      description = "Modernes Kommunikationsdesign beinhaltet verschiedene Bereiche, wie beispielsweise das traditionelle Grafikdesign, Web-Konzepte bis hin zu den sozialen Medien."
+      icon = "icon-compass"
+      
+      
+      [[params.services.item]]
+      title = "Marketing"
+      description = "Ein wirkungsvolles Marketing und die zielgruppenorientierte Kommunikation können nicht standardisiert werden. Wir analysieren zusammen Ihre individuelle Situation, strukturieren und erarbeiten die Ziele und setzen diese mit Ihnen um."      
+      icon = "icon-heart"
+      
+          [[params.services.item]]
+      title = "Produktion"
+      description = "Wir arbeiten vorwiegend als Fullservice-Agentur. Somit haben Sie mit uns einen Ansprechpartner auf den Sie sich gänzlich verlassen können. Wir arbeiten mit auserwählten Partnern zusammen, koordinieren Termine und garantieren so höchste Qualitätsansprüche."      
+      icon = "icon-diamond"
+      
+    [[params.services.item]]
+      title = "Fotografie"
+      description = "«Die andere Art gesehen zu werden» Unter diesem Motto halten wir Ihre wichtigsten Momente fest. Ihre Mitarbeitenden, Geschäfts- und Produktionsräume, Bauwerke und Events werden bildlich in einem guten Licht dastehen. Die Aufnahmen machen wir entweder bei uns im Fotostudio oder am Ort des Geschehens. Professionelle und eindrucksvolle Bilder, die für sich und für Sie sprechen."
+      icon = "icon-camera"
+      
+
+      
+    [[params.services.item]]
+      title = "Events"
+      description = "Firmenjubiläen, Tage der offenen Türen, Generalversammlungen oder andere Veranstaltungen. Wir begleiten Sie nach Ihren individuellen Wünschen und unter Berücksichtigung der Budgets."      
+      icon = "icon-rocket"    
+      
+
+
+[[params.services.item]]
+      title = "Grafik"
+      description = "In unserem Atelier stellen wir sicher, dass Ihr Auftritt harmonisch, umfassend und als Einheit konzipiert und umgesetzt wird."      
+      icon = "icon-magic"
+      
+      
+[[params.services.item]]
+      title = "Web.etc"
+      description = "Die Zufrindenheit unserer Kundinnen und unserer Kunden steht steets im mittelpunkt bei unserem tun. Egal ob Website oder Mobile-App, Social-Media Kampagne oder online Game, wir begleiten Sie effizient und mit begeisterung auf ihrem Weg durch die Digitalen möglichkeiten."      
+      icon = "icon-hand-pointer-o"
+
+
 
   # About section
   [params.about]
@@ -354,26 +380,30 @@ theme = "hugo-elate-theme"
 
 
   # Contact section
+
+  
   [params.contact]
     enable = true
     map = true
     form = true
-    title = "Get in touch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Konntaktieren Sie uns"
+
+    description = "Hinterlassen Sie uns eine unverbindliche Anfrage und wir melden uns schon bald bei Ihnen."
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
-        ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@freehtml5.co"],
-        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+        ["icon-home", "Baukoma-Marketimpact . 5ainackerstrasse 4 . Postfach 111 . 4562 Biberist"],
+        ["icon-phone", "T +41 31 755 85 84 . F +41 31 755 85 82"],
+        ["icon-envelope", "info@baukoma-marketimpact.ch"],
+        ["icon-globe", '<a href="//www.baukoma-marketimpact.ch" target="_blank">www.baukoma-marketimpact.ch</a>']
       ]
 
-    name = "Name"
-    email = "Email"
-    phone = "Phone"
-    message = "Message"
-    button = "Send message"
+    name = "Ihr Name"
+    email = "Ihre E-Mail"
+    phone = "Telefon"
+    subject = "Ihr Anliegen"
+    message = "Ihre Nachricht"
+    button = "Absenden"
 
   # Footer section
   [params.footer]
