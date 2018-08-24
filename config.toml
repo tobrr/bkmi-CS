@@ -129,7 +129,11 @@ theme = "hugo-elate-theme"
   [params.hero]
   title = '<div class="logo bkmi"><img src="img/bmAG_RGB.svg" ></div>'
    #subtitle = 'Another free HTML5 bootstrap template by <a href="http://freehtml5.co/" target="_blank" title="Free HTML5 Bootstrap Templates">FREEHTML5.co</a> released under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons 3.0</a><br> ported for Hugo by <a href="http://saey55.gitlab.io/pietercv" target="_blank">Pieter Saey</a>'
- 
+  background = 'img/wall.jpg'
+  
+  [params.hero.stripe]
+  enable = true
+  
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
@@ -182,6 +186,7 @@ theme = "hugo-elate-theme"
     [[params.work.row]]
       img = "work_2.jpg"
       alt = "Image2"
+      
       title = "Project 2"
       subtitle = "Design"
 
