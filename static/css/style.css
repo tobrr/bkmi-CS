@@ -24,7 +24,7 @@ body {
 }
 
 a {
-  color: #c24d67;
+  color: #ea4f50;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -579,7 +579,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 120px;
   width: 120px;
   margin: 0 auto;
-  border: 2px solid #c24d67;
+  border: 2px solid #e94e4f;
   line-height: 0px;
   display: table;
   text-align: center;
@@ -636,7 +636,7 @@ h1, h2, h3, h4, h5, h6 {
   /* Android 2.3 */
   background-image: -webkit-repeating-linear-gradient(top left, #7b3f75 0%, #c24d67 100%);
   /* IE10+ */
-  background-image: repeating-linear-gradient(to bottom right, #7b3f75 0%, #c24d67 100%);
+  background-image: repeating-linear-gradient(to bottom right, #151454 0%, #ea4f50 100%);
   background-image: -ms-repeating-linear-gradient(top left, #7b3f75 0%, #c24d67 100%);
   overflow: hidden;
   position: relative;
@@ -770,11 +770,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-counters .fh5co-counter .fh5co-counter-icon {
   font-size: 40px;
-  color: #c24d67;
+  color: #ea4f50;
 }
 #fh5co-counters .fh5co-counter .fh5co-counter-number {
   font-size: 70px;
-  color: #fff;
+  color: #f9b900;
   font-weight: 300;
 }
 #fh5co-counters .fh5co-counter .fh5co-counter-label {
@@ -799,7 +799,7 @@ h1, h2, h3, h4, h5, h6 {
   border-left: none;
   padding: 30px;
   background: #fff;
-  background: #c24d67;
+  background: #ea4f50;
   font-size: 20px;
   font-weight: 300;
   position: relative;
@@ -815,7 +815,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 40px;
   border-top: 10px solid black;
   border-top-color: #fff;
-  border-top-color: #c24d67;
+  border-top-color: #ea4f50;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
 }
@@ -831,7 +831,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 #fh5co-testimonials .box-testimony .author a {
-  color: #c24d67;
+  color: #ea4f50;
 }
 #fh5co-testimonials .box-testimony .author a:hover {
   text-decoration: underline;
@@ -869,7 +869,7 @@ h1, h2, h3, h4, h5, h6 {
   /* Android 2.3 */
   background-image: -webkit-repeating-linear-gradient(top left, #7b3f75 0%, #c24d67 100%);
   /* IE10+ */
-  background-image: repeating-linear-gradient(to bottom right, #7b3f75 0%, #c24d67 100%);
+  background-image: repeating-linear-gradient(to bottom right, #f8b801 0%, #c24d67 100%);
   background-image: -ms-repeating-linear-gradient(top left, #7b3f75 0%, #c24d67 100%);
 }
 #fh5co-work a {
@@ -1083,7 +1083,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 80px;
   height: 2px;
-  background: #c24d67;
+  background: #ea4f50;
   left: 50%;
   margin-left: -40px;
   bottom: 0;
@@ -1252,7 +1252,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #c24d67;
+  background: #e94e4f;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
@@ -1318,7 +1318,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 .social.social-circle a {
-  background: #c24d67;
+  background: #ea4f50;
   color: #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
