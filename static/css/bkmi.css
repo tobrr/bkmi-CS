@@ -45,3 +45,23 @@
     color: #fff;
     overflow: hidden;
 }
+
+.fh5co-person {
+    border: 2px solid #f2f2f2;
+    padding: 80px 30px 30px 30px;
+    float: left;
+    width: 100%;
+    position: relative;
+    margin: 0 0 72px 0;
+}
+
+.fh5co-person .social {
+    padding: 0;
+    margin: -50px -22px 0 0;
+    float: right;
+    width: auto;
+}
+
+.col-md-6.col-sm-6.fh5co-service.to-animate.fadeInUp.animated {
+    width: 33.3%;
+}

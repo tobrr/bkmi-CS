@@ -267,15 +267,23 @@ theme = "hugo-elate-theme"
     title = "Unsere Dienstleistungen"
     description = "Bei uns stehen Kreativität, Fachwissen und Effizienz an erster Stelle. Zusammen sind wir ein Team und verfolgen ein Ziel, nämlich erfolgreich zu sein. Wir arbeiten als Fullservice-Agentur oder begleiten Sie modular in den von Ihnen gewünschten Bereichen."
 
+
+
     [[params.services.item]]
-      title = "Consulting"
-      description = "Seit vielen Jahren beraten und begleiten wir Unternehmen in verschiedenen Funktionen. Unser Spezialgebiet ist alles 'rund ums Bauen', aber wir beraten auch Unternehmen aus allen anderen Bereichen kompetent."
-      icon = "icon-stethoscope"
+      title = "Events"
+      description = "Firmenjubiläen, Tage der offenen Türen, Generalversammlungen oder andere Veranstaltungen. Wir begleiten Sie nach Ihren individuellen Wünschen und unter Berücksichtigung der Budgets."      
+      icon = "icon-rocket"    
       
     [[params.services.item]]
       title = "Strategie und Branding"
       description = "Modernes Kommunikationsdesign beinhaltet verschiedene Bereiche, wie beispielsweise das traditionelle Grafikdesign, Web-Konzepte bis hin zu den sozialen Medien."
       icon = "icon-compass"
+      
+    [[params.services.item]]
+      title = "Consulting"
+      description = "Seit vielen Jahren beraten und begleiten wir Unternehmen in verschiedenen Funktionen. Unser Spezialgebiet ist alles 'rund ums Bauen', aber wir beraten auch Unternehmen aus allen anderen Bereichen kompetent."
+      icon = "icon-stethoscope"
+      
       
       
       [[params.services.item]]
@@ -287,20 +295,16 @@ theme = "hugo-elate-theme"
       title = "Produktion"
       description = "Wir arbeiten vorwiegend als Fullservice-Agentur. Somit haben Sie mit uns einen Ansprechpartner auf den Sie sich gänzlich verlassen können. Wir arbeiten mit auserwählten Partnern zusammen, koordinieren Termine und garantieren so höchste Qualitätsansprüche."      
       icon = "icon-diamond"
+
+[[params.services.item]]
+      title = "Web.etc"
+      description = "Die Zufrindenheit unserer Kundinnen und unserer Kunden steht stets im mittelpunkt bei unserem tun. Egal ob Website oder Mobile-App, Social-Media Kampagne oder online Game, wir begleiten Sie effizient und mit begeisterung auf ihrem Weg durch die Digitalen möglichkeiten."      
+      icon = "icon-hand-pointer-o"
       
     [[params.services.item]]
       title = "Fotografie"
-      description = "«Die andere Art gesehen zu werden» Unter diesem Motto halten wir Ihre wichtigsten Momente fest. Ihre Mitarbeitenden, Geschäfts- und Produktionsräume, Bauwerke und Events werden bildlich in einem guten Licht dastehen. Die Aufnahmen machen wir entweder bei uns im Fotostudio oder am Ort des Geschehens. Professionelle und eindrucksvolle Bilder, die für sich und für Sie sprechen."
+      description = "«Die andere Art gesehen zu werden» Unter diesem Motto halten wir Ihre wichtigsten Momente fest. Die Aufnahmen machen wir entweder bei uns im Fotostudio oder am Ort des Geschehens. Professionelle und eindrucksvolle Bilder, die für sich und für Sie sprechen."
       icon = "icon-camera"
-      
-
-      
-    [[params.services.item]]
-      title = "Events"
-      description = "Firmenjubiläen, Tage der offenen Türen, Generalversammlungen oder andere Veranstaltungen. Wir begleiten Sie nach Ihren individuellen Wünschen und unter Berücksichtigung der Budgets."      
-      icon = "icon-rocket"    
-      
-
 
 [[params.services.item]]
       title = "Grafik"
@@ -308,90 +312,115 @@ theme = "hugo-elate-theme"
       icon = "icon-magic"
       
       
-[[params.services.item]]
-      title = "Web.etc"
-      description = "Die Zufrindenheit unserer Kundinnen und unserer Kunden steht steets im mittelpunkt bei unserem tun. Egal ob Website oder Mobile-App, Social-Media Kampagne oder online Game, wir begleiten Sie effizient und mit begeisterung auf ihrem Weg durch die Digitalen möglichkeiten."      
-      icon = "icon-hand-pointer-o"
 
 
 
   # About section
   [params.about]
     enable = true
-    title = "About"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Das Team"
+    description = "Die Baukoma-Marketimpact AG versteht sich als Generalunternehmer in der Welt des Marketings und der Kommunikation. Mit Spezialisten in allen Bereichen sind wir Ihr idealer Partner für eine langfristige und nachhaltige Zusammenarbeit. Auch bei aussergewöhnlichen Projekten können wir Sie dank unserem grossen Netzwerk an ausgewiesenen Partnern ideal begleiten. Wir haben uns zum Ziel gesetzt, Sie persönlich und professionell in der Umsetzung Ihrer Aufgaben zu unterstützen."
 
     [[params.about.item]]
-      name = "Jean Smith"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person1.jpg"
-      alt = "Person1"
+      name = "Urs Bratschi Reichelt"
+      position = "Geschäftsführer"
+      description = "Urs Bratschi Reichelt ist Gründer, Geschäftsführer und Inhaber der Baukoma-Marketimpact AG. Er hat über 20 Jahre Führungserfahrung in der Baubranche."
+      img = "img/team/u-b.png"
+      alt = "Urs Bratschi Reichelt – Geschäftsführer"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
+        #["icon-mail", "mailto:u-b@baukoma-marketimpact.ch"],
+        #["icon-facebook", "#"],
+        #["icon-linkedin", "#"]
+        ["icon-mail2", "mailto:u-b@baukoma-marketimpact.ch"]
       ]
 
     [[params.about.item]]
-      name = "Rob Smith"
-      position = "Web Developer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person2.jpg"
-      alt = "Person2"
+      name = "Oliver Bratschi"
+      position = "Administration / Marketingassistenz"
+      description = "Oliver Bratschi ist ausgebildeter Kaufmann mit Berufsmatura. Er betreut administrative Aufgaben und unterstützt diverse Marketingprojekte."
+      img = "img/team/o-b.png"
+      alt = "Oliver Bratschi – Administration / Marketingassistenz"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
+        #["icon-mail", "mailto:u-b@baukoma-marketimpact.ch"],
+        #["icon-facebook", "#"],
+        #["icon-linkedin", "#"]
+        ["icon-mail2", "mailto:o-b@baukoma-marketimpact.ch"]
       ]
 
     [[params.about.item]]
-      name = "Larry Ben"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person3.jpg"
-      alt = "Person3"
+      name = "Lenka Reichelt Bratschi"
+      position = "Fotografin"
+      description = "Lenka Reichelt Bratschi ist Fotografin. Sie stellt u.a. Architektur ins beste Licht, hält Events fest und ist verantwortlich für Firmen-, Team-, Portrait- und Modeaufnahmen."
+      img = "img/team/l-r.png"
+      alt = "Lenka Reichelt Bratschi – Fotografin"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
-      ]      
+        #["icon-mail", "mailto:u-b@baukoma-marketimpact.ch"],
+        #["icon-facebook", "#"],
+        #["icon-linkedin", "#"]
+        ["icon-mail2", "mailto:foto@baukoma-marketimpact.ch"]
+      ]
+      
+      [[params.about.item]]
+      name = "Sandra Kummer"
+      position = "Grafik"
+      description = "Sandra Kummer ist Polygrafin und zuständig für die visuelle Gestaltung inkl. Druckvorstufe."
+      img = "img/team/s-k.png"
+      alt = "Sandra Kummer – Grafik"
+      social = [
+        #["icon-mail", "mailto:u-b@baukoma-marketimpact.ch"],
+        #["icon-facebook", "#"],
+        #["icon-linkedin", "#"]
+        ["icon-mail2", "mailto:s-k@baukoma-marketimpact.ch"]
+      ]
+      
+      [[params.about.item]]
+      name = "Tobias Haffner"
+      position = "Web- und Social-Media-Artist"
+      description = "Tobias Haffner ist Informatiker und seit mehr als zehn Jahren in der Softwareentwicklung tätig. Er ist zuständig für die Konzeption und Umsetzung von Webseiten und Online-Kampagnen."
+      img = "img/team/t-h.png"
+      alt = "Tobias Haffner – Web- und Social-Media-Artist"
+      social = [
+        #["icon-mail", "mailto:u-b@baukoma-marketimpact.ch"],
+        #["icon-facebook", "#"],
+        #["icon-linkedin", "#"]
+        ["icon-mail2", "mailto:t-h@baukoma-marketimpact.ch"]
+      ]
 
   # Counters section
   [params.counters]
     enable = true
-    title = "Stats"
+    title = "Zahlen"
     background = "img/wall.jpg"
 
     [[params.counters.item]]
-      description = "Finished projects"
-      icon = "icon-briefcase"
+      description = "Events durchgeführte"
+      icon = "icon-bullhorn"
       from = 0
-      to = 89
+      to = 48
       interval = 50
       speed = 5000
 
     [[params.counters.item]]
-      description = "Lines of code"
-      icon = "icon-code"
+      description = "Fotoshootings"
+      icon = "icon-camera"
       from = 0
-      to = 2343409
+      to = 302
       interval = 50
       speed = 5000
 
     [[params.counters.item]]
-      description = "Cups of coffee"
-      icon = "icon-cup"
+      description = "Layouts umgesetzte "
+      icon = "icon-paint-brush"
       from = 0
-      to = 1302
+      to = 630
       interval = 50
       speed = 5000
 
     [[params.counters.item]]
-      description = "Happy clients"
+      description = "Zufridene Kunden"
       icon = "icon-people"
       from = 0
-      to = 52
+      to = 248
       interval = 50
       speed = 5000
 
@@ -403,7 +432,7 @@ theme = "hugo-elate-theme"
   [params.contact]
     enable = true
     google_iframe_map = true
-    google_iframe_embedcode = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2711.5214626277566!2d7.554953615855999!3d47.186805179159045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e140c6995ba39%3A0x82b1e8190e45d8!2sBaukoma+AG!5e0!3m2!1sde!2sch!4v1533532499415" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>'
+    google_iframe_embedcode = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43384.34006453065!2d7.539632807656666!3d47.186809262625395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e140c6995ba39%3A0x82b1e8190e45d8!2sBaukoma+AG!5e0!3m2!1sde!2sch!4v1535377108097" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>'
     google_api_map = false
     form = true
     title = "Konntaktieren Sie uns"
@@ -412,7 +441,7 @@ theme = "hugo-elate-theme"
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "Baukoma-Marketimpact . 5ainackerstrasse 4 . Postfach 111 . 4562 Biberist"],
+        ["icon-home", "Baukoma-Marketimpact AG . Rainackerstrasse 4 . Postfach 111 . 4562 Biberist"],
         ["icon-phone", "T +41 31 755 85 84 . F +41 31 755 85 82"],
         ["icon-envelope", "info@baukoma-marketimpact.ch"],
         ["icon-globe", '<a href="//www.baukoma-marketimpact.ch" target="_blank">www.baukoma-marketimpact.ch</a>']
@@ -427,7 +456,7 @@ theme = "hugo-elate-theme"
 
   # Footer section
   [params.footer]
-    enable = true
+    enable = false
     copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
     links = [
         ["icon-twitter", "#twitter"],
