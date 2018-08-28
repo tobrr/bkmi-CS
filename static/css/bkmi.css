@@ -72,23 +72,24 @@
 
 
 
-
+#fh5co-intro .intro-items>div {
+    display: flex;
+    align-items: flex-end;
+}
 
 #fh5co-intro .container .row.intro-items {
     width: 100%;
     margin: 0px 0px 0 0px;
  
 }
-#fh5co-intro .row.intro-items div {
-    /*border: grey solid 1px;*/
-    /*background: wheat;*/
-    
-    /*height: 9em;*/
-}
+
+
 
 #fh5co-intro .intro-items img {
     width: 100%;
 }
+
+
 
 #fh5co-intro .intro-items .overlay:hover {
     opacity: 1;
@@ -126,6 +127,8 @@
 }
 
 
+
+
 .white-popup-block {
     background: #FFF;
     padding: 20px 30px;
@@ -133,6 +136,11 @@
     max-width: 650px;
     margin: 40px auto;
     position: relative;
+}
+
+.white-popup-block img {
+    width: 100%;
+    margin: 15px 0 12px 0;
 }
 
 .intro-items>div {

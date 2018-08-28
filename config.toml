@@ -25,7 +25,7 @@ theme = "hugo-elate-theme"
   [params.intro]
 
   [[params.intro.item]]
-    col_size = "col-4"
+    col_size = "col-12 col-sm-4"
     title = "RUVIDO – einfach stark!"
     description = "Eine umfassende Image- und Marketingkampagne von der Strategie bis zum Werbe-Truck."
     content_url = "ruvido"
@@ -45,6 +45,36 @@ theme = "hugo-elate-theme"
     icon = "icon-bulb"
     img = "img/references/buildingaward2.jpg"
     
+    
+      [[params.intro.item]]
+    col_size = "col-4"
+    title = "Building-Award – Die Auszeichnung für den Ingenieur am Bau"
+    description =""#"Wir erledigen für unseren Kunden die Organisation, die Sponsorensuche, das Drehbuch und eigentlich den ganzen Event."
+    content_url = "buildingaward"
+    content =  '<p style="margin-left:0cm; margin-right:0cm"><strong><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">Building-Award &ndash; Die Auszeichnung f&uuml;r den Ingenieur am Bau</span></span></strong></p><p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">Der Building-Award wird alle zwei Jahre ausgetragen, 2019 zum dritten Mal. Bewertet und ausgezeichnet werde herausragende, besonders bemerkenswerte und innovative Ingenieursleistungen am Bau. Rund 800 G&auml;ste werden am 6. Juni 2019 im KKL erwartet, wenn die grosse Preisverleihung stattfindet.</span></span></p><p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">Im Auftrag der Stiftung bild<em>ing </em>sind wir f&uuml;r die komplette Organisation zust&auml;ndig. Die Preisverleihung selber ist nur ein kleiner Teil. Rund 2 Jahre dauert die Vorlaufzeit. Sponsorensuche- und Betreuung, Ausschreibung, Wettbewerbsphase, Eingabenaufbereitung, Drucksachen (darunter ein rund 80-seitiges Programmheft), Drehbuch, Showclips, Ticketing und vieles mehr geh&ouml;ren zu unseren Aufgaben.</span></span></p><p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">&nbsp;Darauf sind wir stolz. </span></span></p>'
+    button = "Get In Touch"
+    icon = "icon-bulb"
+    img = "img/references/31_slider_referenz.jpg"
+
+      [[params.intro.item]]
+    col_size = "col-3"
+    title = "Werben Sie professionell"
+    description = ""#"Wir erledigen für unseren Kunden die Organisation, die Sponsorensuche, das Drehbuch und eigentlich den ganzen Event."
+    content_url = "werbeartikel"
+    content = '<img src="img/references/38_slider_werbe.jpg" /><p><strong>Werbeartikel die begeistern</strong></p><p>Sie finden unseren aktuellen Werbemittelkatalog auch&nbsp;<a href="http://www.yumpu.com/de/embed/view/6ntVlyfLoiPqgw1c" target="_blank">online</a>. Entdecken Sie bequem und einfach die besten Werbeartikel.<br />Neben bestandenen und bew&auml;hrten Klassikern wie Kugelschreibern in diversen Ausf&uuml;hrungen finden Sie ausgefallene und exklusive Kundengeschenke von Ferngl&auml;sern bis hin zum Messerset.<br />Nat&uuml;rlich bieten wir Ihnen einen Top-Service und eine schnelle Lieferung!</p><p>Kontaktieren Sie uns f&uuml;r Fragen per Telefon 031 755 85 84 oder E-Mail&nbsp;<a href="mailto:info@baukoma.ch">info@baukoma.ch</a>.</p>' 
+    button = "Get In Touch"
+    icon = "icon-bulb"
+    img = "img/references/38_slider_werbe.jpg"
+    
+       [[params.intro.item]]
+    col_size = "col-4"
+    title = "Grafikdesign"
+    description = ""#"Wir erledigen für unseren Kunden die Organisation, die Sponsorensuche, das Drehbuch und eigentlich den ganzen Event."
+    content_url = "grafikdesign"
+    content = '<img src="img/references/57_slider_grafik.jpg" /> <p><strong>Grafikdesign</strong></p><p>Modernes Kommunikationsdesign beinhaltet verschiedene Bereiche, wie beispielsweise das traditionelle Grafikdesign, Web-Konzepte bis hin zu den sozialen Medien. In unserem Atelier stellen wir sicher, dass Ihr Auftritt harmonisch, umfassend und als Einheit konzipiert und umgesetzt wird.</p>'
+    button = "Get In Touch"
+    icon = "icon-bulb"
+    img = "img/references/57_slider_grafik.jpg"
 
  [params.intro.new_layout]
     enable = true
@@ -219,7 +249,7 @@ theme = "hugo-elate-theme"
       [[params.about.item]]
       name = "Tobias Haffner"
       position = "Web- und Social-Media-Artist"
-      description = "Tobias Haffner ist Informatiker und seit mehr als zehn Jahren in der Softwareentwicklung tätig. Er ist zuständig für die Konzeption und Umsetzung von Webseiten und Online-Kampagnen."
+      description = "Tobias Haffner ist ausgebildeter Informatiker mit Berufsmatura. Er ist zuständig für die Konzeption und Umsetzung von Webseiten und Online-Kampagnen."
       img = "img/team/t-h.png"
       alt = "Tobias Haffner – Web- und Social-Media-Artist"
       social = [
@@ -236,7 +266,7 @@ theme = "hugo-elate-theme"
     background = "img/wall.jpg"
 
     [[params.counters.item]]
-      description = "Events durchgeführte"
+      description = "Events durchgeführt"
       icon = "icon-bullhorn"
       from = 0
       to = 48
@@ -252,7 +282,7 @@ theme = "hugo-elate-theme"
       speed = 5000
 
     [[params.counters.item]]
-      description = "Layouts umgesetzte "
+      description = "Umgesetzte Layouts "
       icon = "icon-paint-brush"
       from = 0
       to = 630
