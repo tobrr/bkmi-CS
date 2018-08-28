@@ -18,7 +18,7 @@ theme = "hugo-elate-theme"
   background = 'img/wall.jpg'
   
   [params.hero.stripe]
-  enable = true
+  enable = false
   
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -261,7 +261,7 @@ theme = "hugo-elate-theme"
 
   # Counters section
   [params.counters]
-    enable = true
+    enable = false
     title = "Zahlen"
     background = "img/wall.jpg"
 
