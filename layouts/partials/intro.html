@@ -1,51 +1,34 @@
 <section id="fh5co-intro">
 	<div class="container">
-
-	<!-- Stack the columns on mobile by making one full-width and the other half-width -->
-	{{ if .Site.Params.intro.new_layout.enable }}
-	<div class="row row-bottom-padded-lg intro-items">
-		{{ range .Site.Params.intro.item }}
-		<!--<div class="{{ .col_size }} to-animate " style="background-image: url({{ .img }});">-->
-		<div class="{{ .col_size }} to-animate ">
-			<a class="popup-modal " href="#{{ .content_url }}">
-			<img src="{{ .img }}" />
-			<div class="overlay">
-				<div class="fh5co-text">
-					<!--<i class="fh5co-intro-icon {{ .icon }}"></i>-->
-					<h2>{{ .title }}</h2>
-					<p>{{ .description }}</p>
-					<!--<p><a href="{{ .url }}" class="btn btn-primary">{{ .button}}</a></p>-->
-				</div>
+		{{ if .Site.Params.intro.new_layout.enable }}
+			<div class="row row-bottom-padded-lg intro-items">
+				{{ range .Site.Params.intro.item }}
+					<div class="{{ .col_size }} to-animate ">
+						<a class="popup-modal " href="#{{ .content_url }}">
+							<img src="{{ .img }}" />
+							<div class="overlay">
+								<div class="fh5co-text">
+									<h2>{{ .title }}</h2>
+									<p>{{ .description }}</p>
+								</div>
+							</div>
+						</a>
+						<div id="{{ .content_url }}" class="white-popup-block mfp-hide">
+					        {{ .content | safeHTML }}
+						</div>
+					</div>
+				{{ end }}
 			</div>
-			</a>
-			<div id="{{ .content_url }}" class="white-popup-block mfp-hide">
-		        {{ .content | safeHTML }}
+		{{ end }} 
+		
+		{{ if .Site.Params.intro.video.enable }}
+			<div class="row watch-video text-center to-animate">
+				<!-- <span>{{ with .Site.Params.intro.video }}{{ . }}{{ end }}</span> -->
+				<span>{{.Site.Params.intro.video.title | markdownify }}</span>
+				<a href="{{ .Site.Params.intro.video.url }}" class="popup-vimeo btn-video">
+					<i class="{{ .Site.Params.intro.video.icon | markdownify }}"></i>
+				</a>
 			</div>
-		</div>
-	{{ end }}
-	</div>
-	{{ end }} {{ if .Site.Params.intro.old_layout.enable }}
-	<div class="row row-bottom-padded-lg">
-		{{ range .Site.Params.intro.item }}
-		<div class="fh5co-block to-animate" style="background-image: url({{ .img }});">
-			<div class="overlay-darker"></div>
-			<div class="overlay"></div>
-			<div class="fh5co-text">
-				<i class="fh5co-intro-icon {{ .icon }}"></i>
-				<h2>{{ .title }}</h2>
-				<p>{{ .description }}</p>
-				<p><a href="{{ .url }}" class="btn btn-primary">{{ .button}}</a></p>
-			</div>
-		</div>
 		{{ end }}
-	</div>
-	{{ end }} {{ if .Site.Params.intro.video.enable }}
-	<div class="row watch-video text-center to-animate">
-		<!-- <span>{{ with .Site.Params.intro.video }}{{ . }}{{ end }}</span> -->
-		<span>{{.Site.Params.intro.video.title | markdownify }}</span>
-
-		<a href="{{ .Site.Params.intro.video.url }}" class="popup-vimeo btn-video"><i class="{{ .Site.Params.intro.video.icon | markdownify }}"></i></a>
-	</div>
-	{{ end }}
 	</div>
 </section>
