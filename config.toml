@@ -139,73 +139,26 @@ theme = "hugo-elate-theme"
   [params.intro]
 
   [[params.intro.item]]
-    col_size = "col-6"
-    title = "ruvido"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
+    col_size = "col-4"
+    title = "RUVIDO – einfach stark!"
+    description = "Eine umfassende Image- und Marketingkampagne von der Strategie bis zum Werbe-Truck."
+    content_url = "ruvido"
+    content =  '<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><strong>Ruvido - einfach stark!</strong></span></span></p><p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">Elektroofenschmelzgestein, kurz EOS, ist ein qualit&auml;tsgepr&uuml;fter Recyclingbaustoff, welcher seit Jahren erfolgreich als ressourcenschonendes Kiesersatzmaterial mit vielen Einsatzm&ouml;glich im Hoch- und Tiefbau eingesetzt wird. EOS 100% mineralisch und &uuml;berzeugt durch seine hervorragenden Eigenschaften und das vorteilhafte Preisleistungsverh&auml;ltnis. Um EOS als werthaltiges Produktion positionieren zu k&ouml;nnen, durften wir eine umfassende Image- und Marketingstrategie erarbeiten. Folgende Dienstleistungen haben wir erbracht:</span></span></p><p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><strong>Namensgebung und Claim</strong></span></span><br /><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">Um ein Produkt erfolgreich zu vermarkten, ben&ouml;tigt es einen geeigneten Namen. Gemeinsam mit dem Kunden haben wir verschiedene Vorschl&auml;ge diskutiert und gepr&uuml;ft. Am Ende hat sich der Name <strong>Ruvido</strong> durchgesetzt. Beim Claim haben wir uns f&uuml;r &laquo;einfach stark&raquo; entschieden. Dies insbesondere auch im Zusammenhang mit dem Markenbotschafter (siehe unten).</span></span></p><p><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><strong>Logo, CD und Website</strong></span></span><br /><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">Entscheidend im Markenaufbau und der Kommunikation ist der grafische Auftritt. Wir haben sowohl Logo als auch alle grafischen Auftritte entwickelt. Auch der Webauftritt <span style="color:#0563c1"><u><a href="http://www.ruvido.ch" style="color:#0563c1; text-decoration:underline">www.ruvido.ch</a></u></span> stammt aus der Feder der Baukoma-Marketimpact AG</span></span></p><p><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><strong>Markenbotschafter</strong></span></span><br /><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">Mit dem Schwinger Remo K&auml;ser konnte man den idealen Markenbotschafter gewinnen. Nicht nur, dass er als Schwinger hervorragend mit dem Claim harmoniert, seine Familie ist seit langem mit der Stahl Gerlafingen AG verbunden. Bereits sein Urgrossvater hat im damaligen Von-Roll-Stahlwerk gearbeitet. Sein Vater Bruno K&auml;ser, war 41 Jahre f&uuml;r die Stahl Gerlafingen AG t&auml;tig.</span></span></p><p><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><strong>Werbeartikel</strong></span></span></span></span><br /><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">Streuartikel bieten eine hervorragende M&ouml;glichkeit, dass die Marke breit gestreut und wahrgenommen wird. Zu diesem Zweck durften wir Ruvido-Kugelschreiber produzieren.</span></span></p>'
     button = "Get In Touch"
     icon = "icon-bulb"
     img = "img/references/ruvido.jpg"
+    
     
      [[params.intro.item]]
-    col_size = "col-6"
-    title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
+    col_size = "col-7"
+    title = "Building-Award – Die Auszeichnung für den Ingenieur am Bau"
+    description = "Wir erledigen für unseren Kunden die Organisation, die Sponsorensuche, das Drehbuch und eigentlich den ganzen Event."
+    content_url = "buildingaward"
+    content =  '<p style="margin-left:0cm; margin-right:0cm"><strong><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">Building-Award &ndash; Die Auszeichnung f&uuml;r den Ingenieur am Bau</span></span></strong></p><p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">Der Building-Award wird alle zwei Jahre ausgetragen, 2019 zum dritten Mal. Bewertet und ausgezeichnet werde herausragende, besonders bemerkenswerte und innovative Ingenieursleistungen am Bau. Rund 800 G&auml;ste werden am 6. Juni 2019 im KKL erwartet, wenn die grosse Preisverleihung stattfindet.</span></span></p><p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">Im Auftrag der Stiftung bild<em>ing </em>sind wir f&uuml;r die komplette Organisation zust&auml;ndig. Die Preisverleihung selber ist nur ein kleiner Teil. Rund 2 Jahre dauert die Vorlaufzeit. Sponsorensuche- und Betreuung, Ausschreibung, Wettbewerbsphase, Eingabenaufbereitung, Drucksachen (darunter ein rund 80-seitiges Programmheft), Drehbuch, Showclips, Ticketing und vieles mehr geh&ouml;ren zu unseren Aufgaben.</span></span></p><p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">&nbsp;Darauf sind wir stolz. </span></span></p>'
     button = "Get In Touch"
     icon = "icon-bulb"
-    img = "img/references/ruvido.jpg"
+    img = "img/references/buildingaward2.jpg"
     
-     [[params.intro.item]]
-    col_size = "col-6"
-    title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Get In Touch"
-    icon = "icon-bulb"
-    img = "img/references/ruvido.jpg"
-    
-     [[params.intro.item]]
-    col_size = "col-6"
-    title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Get In Touch"
-    icon = "icon-bulb"
-    img = "img/references/ruvido.jpg"
-
-  # [[params.intro.item]]
-  #   title = "Develop"
-  #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-  #   url = "#"
-  #   button = "Click Me"
-  #   icon = "icon-wrench"
-  #   img = "img_8.jpg"
-
-  # [[params.intro.item]]
-  #   title = "Launch"
-  #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-  #   url = "#"
-  #   button = "Why us?"
-  #   icon = "icon-rocket"
-  #   img = "img_10.jpg"
-    
-    
-  # [[params.intro.item]]
-  #   title = "Develop"
-  #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-  #   url = "#"
-  #   button = "Click Me"
-  #   icon = "icon-wrench"
-  #   img = "img_8.jpg"
-
-  # [[params.intro.item]]
-  #   title = "Launch"
-  #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-  #   url = "#"
-  #   button = "Why us?"
-  #   icon = "icon-rocket"
-  #   img = "img_10.jpg"
 
  [params.intro.new_layout]
     enable = true
@@ -226,7 +179,7 @@ theme = "hugo-elate-theme"
     enable = true
     title = "News"
     description = ""
-    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+    footertext = ""#'** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
     [[params.work.row]]
       img = "work_1.jpg"
@@ -234,36 +187,7 @@ theme = "hugo-elate-theme"
       title = "22. Juni 2017"
       subtitle = "Die mobile Fussgängerbrücke zum Jet d'Eau gewinnt Building-Award 2017"
 
-    [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
-      
-      title = "Project 2"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_3.jpg"
-      alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_4.jpg"
-      alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_5.jpg"
-      alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
+ 
 
 
 
@@ -468,7 +392,7 @@ theme = "hugo-elate-theme"
     google_iframe_embedcode = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43384.34006453065!2d7.539632807656666!3d47.186809262625395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e140c6995ba39%3A0x82b1e8190e45d8!2sBaukoma+AG!5e0!3m2!1sde!2sch!4v1535377108097" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>'
     google_api_map = false
     form = true
-    title = "Konntaktieren Sie uns"
+    title = "Kontaktieren Sie uns"
 
     description = "Wir haben immer ein offenes Ohr und gute Ideen. Wir freuen uns auf Ihren Anruf, eine Nachricht und noch mehr über Ihren Besuch."
     

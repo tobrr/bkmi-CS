@@ -118,13 +118,25 @@
 
 
 #fh5co-intro .intro-items .overlay h2 {
-    color:#f8b801;
+    /*color:#f8b801;*/
+    color: white;
+    
+    
     
 }
 
+
+.white-popup-block {
+    background: #FFF;
+    padding: 20px 30px;
+    text-align: left;
+    max-width: 650px;
+    margin: 40px auto;
+    position: relative;
+}
+
 .intro-items>div {
-    background-size: cover;
-    overflow: visible;
+
     padding: 0;
 }
 
