@@ -8,18 +8,15 @@
         {{ partial "head.html" .}}
     </head>
     <body>
-        {{ partial "nav.html" .}}
+        {{ if .Site.Params.nav.show_nav }}
+            {{ partial "nav.html" .}}
+		{{ end }}
         
-
-
 		{{ partial "hero.html" .}}
 		
 		
         {{ partial "intro.html" .}}
 
-		{{ if .Site.Params.work.enable }}
-       		{{ partial "work.html" .}}
-       	{{ end }}
 
 		{{ if .Site.Params.testimonials.enable }}
         	{{ partial "testimonials.html" .}}
@@ -32,6 +29,10 @@
 		{{ if .Site.Params.about.enable }}
         	{{ partial "about.html" .}}
 		{{ end }}
+		
+		{{ if .Site.Params.work.enable }}
+       		{{ partial "work.html" .}}
+       	{{ end }}
 
 		{{ if .Site.Params.counters.enable }}
         	{{ partial "counters.html" .}}

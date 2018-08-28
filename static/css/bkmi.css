@@ -1,14 +1,22 @@
-.logo.bkmi {
+
+#fh5co-home .text-inner h1 {
+    font-size: 50px;
+    color: white;
+    margin: -230px 0px 0 -18px;
+}
+
+.logo .bkmi {
     background-color: white;
     width: 9em;
     padding: 1.3em 0em;
-    margin: -3em auto 0 auto;
+    margin: 0 auto;
 }
 
 
-.logo.bkmi img {
+.logo .bkmi img {
     width: 200px;
 }
+
 
 #fh5co-intro .fh5co-block > .fh5co-text .fh5co-intro-icon {
     font-size: 50px;
@@ -55,31 +63,80 @@
     margin: 0 0 72px 0;
 }
 
-.fh5co-person .social {
-    padding: 0;
-    margin: -50px -22px 0 0;
-    float: right;
-    width: auto;
-}
+/*.fh5co-person .social {*/
+/*    padding: 0;*/
+/*    margin: -28px -22px 0 0;*/
+/*    float: right;*/
+/*    width: auto;*/
+/*}*/
 
-.col-md-6.col-sm-6.fh5co-service.to-animate.fadeInUp.animated {
-    width: 33.3%;
-}
+
+
 
 
 #fh5co-intro .container .row.intro-items {
     width: 100%;
+    margin: 0px 0px 0 0px;
  
 }
 #fh5co-intro .row.intro-items div {
-    border: grey solid 1px;
-    background: wheat;
-    height: 6em;
+    /*border: grey solid 1px;*/
+    /*background: wheat;*/
+    
+    /*height: 9em;*/
+}
+
+#fh5co-intro .intro-items img {
+    width: 100%;
+}
+
+#fh5co-intro .intro-items .overlay:hover {
+    opacity: 1;
+    padding: 1em;
+    cursor: pointer;
+    color: white;
+}
+
+
+#fh5co-intro .intro-items .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #4c2888a8;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…AiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
+    background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #ea4f50), color-stop(1, #c5393a));
+    background-image: -webkit-repeating-linear-gradient(top , #ea4f50cc 0%, #c5393a 100%);
+    background-image: repeating-linear-gradient(to bottom , #ea4f50c9 0%, #c5393a 100%);
+    opacity: 0;
+    -webkit-transition: .3s all;
+    -o-transition: .3s all;
+    transition: .3s all;
+    text-align: center;
+}
+
+
+#fh5co-intro .intro-items .overlay h2 {
+    color:#f8b801;
+    
+}
+
+.intro-items>div {
+    background-size: cover;
+    overflow: visible;
+    padding: 0;
 }
 
 
 
 
-
+.col-md-8 {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+}
 
 
