@@ -65,3 +65,21 @@
 .col-md-6.col-sm-6.fh5co-service.to-animate.fadeInUp.animated {
     width: 33.3%;
 }
+
+
+#fh5co-intro .container .row.intro-items {
+    width: 100%;
+ 
+}
+#fh5co-intro .row.intro-items div {
+    border: grey solid 1px;
+    background: wheat;
+    height: 6em;
+}
+
+
+
+
+
+
+

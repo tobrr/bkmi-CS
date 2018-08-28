@@ -1,20 +1,5 @@
 	<section id="fh5co-intro">
 		<div class="container">
-			
-			<!-- Stack the columns on mobile by making one full-width and the other half-width -->
-
-<div class="row row-bottom-padded-lg intro-items">
-	<div class="col-12 col-md-8 to-animate fadeInTop animated">.col-12 .col-md-8</div>
-	<div class="col-6 col-md-4 to-animate fadeInRight animated">.col-6 .col-md-4</div>
-	<div class="col-6 col-md-4 to-animate fadeInLeft animated">.col-6 .col-md-4</div>
-	<div class="col-6 col-md-4 to-animate fadeInRight animated">.col-6 .col-md-4</div>
-	<div class="col-6 col-md-4 to-animate fadeInRight animated">.col-6 .col-md-4</div>
-	<div class="col-6 to-animate fadeInRight animated">.col-6</div>
-	<div class="col-6 to-animate fadeInLeft animated">.col-6</div>
-</div>
-			
-			
-			
 			<div class="row row-bottom-padded-lg">
 				{{ range .Site.Params.intro.item }}
 				<div class="fh5co-block to-animate" style="background-image: url({{ .img }});">

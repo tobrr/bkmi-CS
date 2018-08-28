@@ -144,7 +144,7 @@ theme = "hugo-elate-theme"
     url = "#"
     button = "Get In Touch"
     icon = "icon-bulb"
-    img = "img_7.jpg"
+    img = "img/team/t-h.png"
 
   [[params.intro.item]]
     title = "Develop"
