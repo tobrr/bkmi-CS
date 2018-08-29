@@ -37,7 +37,7 @@ theme = "hugo-elate-theme"
   [params.intro]
 
   [[params.intro.item]]
-  col_size = "col-12 col-sm-4"
+  col_size = "col-12 col-sm-6"
   title = "RUVIDO – einfach stark!"
   description = "Eine umfassende Image- und Marketingkampagne von der Strategie bis zum Werbe-Truck."
   content_url = "ruvido"
@@ -47,7 +47,7 @@ theme = "hugo-elate-theme"
   img = "img/references/ruvido.jpg"
   
   [[params.intro.item]]
-  col_size = "col-7"
+  col_size = "col-6"
   title = "Building-Award – Die Auszeichnung für den Ingenieur am Bau"
   description = "Wir erledigen für unseren Kunden die Organisation, die Sponsorensuche, das Drehbuch und eigentlich den ganzen Event."
   content_url = "buildingaward"
@@ -57,7 +57,7 @@ theme = "hugo-elate-theme"
   img = "img/references/buildingaward2.jpg"
   
   [[params.intro.item]]
-  col_size = "col-4"
+  col_size = "col-6"
   title = "Building-Award – Die Auszeichnung für den Ingenieur am Bau"
   description =""
   content_url = "buildingaward"
@@ -67,7 +67,7 @@ theme = "hugo-elate-theme"
   img = "img/references/31_slider_referenz.jpg"
   
   [[params.intro.item]]
-  col_size = "col-3"
+  col_size = "col-6"
   title = "Werben Sie professionell"
   description = ""
   content_url = "werbeartikel"
@@ -77,7 +77,7 @@ theme = "hugo-elate-theme"
   img = "img/references/38_slider_werbe.jpg"
   
   [[params.intro.item]]
-  col_size = "col-4"
+  col_size = "col-6"
   title = "Grafikdesign"
   description = ""
   content_url = "grafikdesign"
@@ -284,7 +284,7 @@ theme = "hugo-elate-theme"
   
   # Counters section
   [params.counters]
-  enable = false
+  enable = true
   title = "Zahlen"
   background = "img/wall.jpg"
   
