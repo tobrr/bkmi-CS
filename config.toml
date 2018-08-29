@@ -3,10 +3,27 @@ languageCode = "de-ch"
 title = "Baukoma-Marketimpact"
 theme = "hugo-elate-theme"
 
+
+
+[menu]
+
+
+  [[menu.header]]
+    weight = 3
+    name = "Blog"
+    url = "/blog"
+
+
+
       
   #elate theme
   #custom css
   [params]
+  dateFormat = "6 January 2006"
+
+  home = "Home"
+  
+  
   custom_css = ["css/bkmi.css"]
   
   
@@ -86,18 +103,7 @@ theme = "hugo-elate-theme"
   url = "https://vimeo.com/channels/staffpicks/93951774"
   
   
-  # Work section
-  [params.work]
-  enable = true
-  title = "News"
-  description = ""
-  footertext = ""
-  
-  [[params.work.row]]
-  img = "work_1.jpg"
-  alt = "Image2"
-  title = "22. Juni 2017"
-  subtitle = "Die mobile Fussgängerbrücke zum Jet d'Eau gewinnt Building-Award 2017"
+
   
   
   # Testimonials section
@@ -227,7 +233,28 @@ theme = "hugo-elate-theme"
   social = [
     ["icon-mail2", "mailto:t-h@baukoma-marketimpact.ch"]
   ]
+  
+  
+  
+  [params.blog]
+  enable = true
+  title = "Get The Latest On What We're doing"
+  subtitle = "Catch up with us, anytime and anywhere"
 
+
+
+  # Work section
+  [params.work]
+  enable = true
+  title = "News"
+  description = ""
+  footertext = ""
+  
+  [[params.work.row]]
+  img = "work_1.jpg"
+  alt = "Image2"
+  title = "22. Juni 2017"
+  subtitle = "Die mobile Fussgängerbrücke zum Jet d'Eau gewinnt Building-Award 2017"
   
   # Counters section
   [params.counters]
