@@ -4,38 +4,34 @@ title = "Baukoma-Marketimpact"
 theme = "hugo-elate-theme"
 
 
-
-[menu]
-
-
+  #-----------------------------------------------------------------------------------------------------#
+  #Menu Header
+  [menu]
+  
   [[menu.header]]
-    weight = 3
-    name = "Blog"
-    url = "/blog"
-
-
-
-      
+  weight = 3
+  name = "Blog"
+  url = "/blog"
+  
+  #-----------------------------------------------------------------------------------------------------#
   #elate theme
   #custom css
   [params]
   dateFormat = "6 January 2006"
-
   home = "Home"
-  
-  
   custom_css = ["css/bkmi.css"]
   
-  
+  #-----------------------------------------------------------------------------------------------------#
   # Hero section
   [params.hero]
   title = '<div class="bkmi"><img src="img/bmAG_RGB.svg" ></div>'
-  #subtitle = 'Another free HTML5 bootstrap template by <a href="http://freehtml5.co/" target="_blank" title="Free HTML5 Bootstrap Templates">FREEHTML5.co</a> released under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons 3.0</a><br> ported for Hugo by <a href="http://saey55.gitlab.io/pietercv" target="_blank">Pieter Saey</a>'
+  subtitle = ""
   background = 'img/wall.jpg'
   
   [params.hero.stripe]
   enable = false
   
+  #-----------------------------------------------------------------------------------------------------#
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
@@ -102,35 +98,7 @@ theme = "hugo-elate-theme"
   icon = "icon-play2"
   url = "https://vimeo.com/channels/staffpicks/93951774"
   
-  
-
-  
-  
-  # Testimonials section
-  [params.testimonials]
-  enable = false
-  title = "Testimonials"
-  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-  
-  [[params.testimonials.item]]
-  quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
-  person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-  img = "person1.jpg"
-  alt = "Person1"
-  
-  [[params.testimonials.item]]
-  quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-  person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-  img = "person2.jpg"
-  alt = "Person2"
-  
-  [[params.testimonials.item]]
-  quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
-  person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-  img = "person3.jpg"
-  alt = "Person3"
-  
-  
+  #-----------------------------------------------------------------------------------------------------#
   # Services section
   [params.services]
   enable = true
@@ -177,7 +145,7 @@ theme = "hugo-elate-theme"
   description = "In unserem Atelier stellen wir sicher, dass Ihr Auftritt harmonisch, umfassend und als Einheit konzipiert und umgesetzt wird."      
   icon = "icon-magic"
 
-  
+  #-----------------------------------------------------------------------------------------------------#
   # About section
   [params.about]
   enable = true
@@ -234,15 +202,7 @@ theme = "hugo-elate-theme"
     ["icon-mail2", "mailto:t-h@baukoma-marketimpact.ch"]
   ]
   
-  
-  
-  [params.blog]
-  enable = true
-  title = "Get The Latest On What We're doing"
-  subtitle = "Catch up with us, anytime and anywhere"
-
-
-
+  #-----------------------------------------------------------------------------------------------------#
   # Work section
   [params.work]
   enable = true
@@ -255,6 +215,72 @@ theme = "hugo-elate-theme"
   alt = "Image2"
   title = "22. Juni 2017"
   subtitle = "Die mobile Fussgängerbrücke zum Jet d'Eau gewinnt Building-Award 2017"
+  
+  #-----------------------------------------------------------------------------------------------------#
+  # Contact section
+  [params.contact]
+  enable = true
+  google_iframe_map = true
+  google_iframe_embedcode = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43384.34006453065!2d7.539632807656666!3d47.186809262625395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e140c6995ba39%3A0x82b1e8190e45d8!2sBaukoma+AG!5e0!3m2!1sde!2sch!4v1535377108097" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>'
+  google_api_map = false
+  form = true
+  title = "Kontaktieren Sie uns"
+  description = "Wir haben immer ein offenes Ohr und gute Ideen. Wir freuen uns auf Ihren Anruf, eine Nachricht und noch mehr über Ihren Besuch."
+  # Available icons: http://simplelineicons.com/
+  details = [
+    ["icon-home", "Baukoma-Marketimpact AG . Rainackerstrasse 4 . Postfach 111 . 4562 Biberist"],
+    ["icon-phone", "T +41 31 755 85 84 . F +41 31 755 85 82"],
+    ["icon-envelope", "info@baukoma-marketimpact.ch"],
+    ["icon-globe", '<a href="//www.baukoma-marketimpact.ch" target="_blank">www.baukoma-marketimpact.ch</a>']
+  ]
+  
+  name = "Ihr Name"
+  email = "Ihre E-Mail"
+  phone = "Telefon"
+  subject = "Ihr Anliegen"
+  message = "Ihre Nachricht"
+  button = "Absenden"
+  
+
+
+  
+  
+  [params.blog]
+  enable = true
+  title = "Get The Latest On What We're doing"
+  subtitle = "Catch up with us, anytime and anywhere"
+
+
+  
+  
+  
+  #-----------------------------------------------------------------------------------------------------#
+  
+  
+    # Testimonials section
+  [params.testimonials]
+  enable = false
+  title = "Testimonials"
+  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+  
+  [[params.testimonials.item]]
+  quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+  person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+  img = "person1.jpg"
+  alt = "Person1"
+  
+  [[params.testimonials.item]]
+  quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
+  person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+  img = "person2.jpg"
+  alt = "Person2"
+  
+  [[params.testimonials.item]]
+  quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
+  person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+  img = "person3.jpg"
+  alt = "Person3"
+  
   
   # Counters section
   [params.counters]
@@ -295,30 +321,6 @@ theme = "hugo-elate-theme"
   speed = 5000
 
 
-  # Contact section
-  [params.contact]
-  enable = true
-  google_iframe_map = true
-  google_iframe_embedcode = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43384.34006453065!2d7.539632807656666!3d47.186809262625395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e140c6995ba39%3A0x82b1e8190e45d8!2sBaukoma+AG!5e0!3m2!1sde!2sch!4v1535377108097" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>'
-  google_api_map = false
-  form = true
-  title = "Kontaktieren Sie uns"
-  description = "Wir haben immer ein offenes Ohr und gute Ideen. Wir freuen uns auf Ihren Anruf, eine Nachricht und noch mehr über Ihren Besuch."
-  # Available icons: http://simplelineicons.com/
-  details = [
-    ["icon-home", "Baukoma-Marketimpact AG . Rainackerstrasse 4 . Postfach 111 . 4562 Biberist"],
-    ["icon-phone", "T +41 31 755 85 84 . F +41 31 755 85 82"],
-    ["icon-envelope", "info@baukoma-marketimpact.ch"],
-    ["icon-globe", '<a href="//www.baukoma-marketimpact.ch" target="_blank">www.baukoma-marketimpact.ch</a>']
-  ]
-  
-  name = "Ihr Name"
-  email = "Ihre E-Mail"
-  phone = "Telefon"
-  subject = "Ihr Anliegen"
-  message = "Ihre Nachricht"
-  button = "Absenden"
-  
   # Footer section
   [params.footer]
   enable = false
