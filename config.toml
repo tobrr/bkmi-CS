@@ -117,7 +117,7 @@ theme = "hugo-elate-theme"
   
   [[params.services.item]]
   title = "Consulting"
-  description = "Seit vielen Jahren beraten und begleiten wir Unternehmen in verschiedenen Funktionen. Unser Spezialgebiet ist alles 'rund ums Bauen', aber wir beraten auch Unternehmen aus allen anderen Bereichen kompetent."
+  description = "Seit vielen Jahren beraten und begleiten wir Unternehmen in verschiedenen Funktionen. Unser Spezialgebiet ist alles «rund ums Bauen», aber wir beraten auch Unternehmen aus allen anderen Bereichen kompetent."
   icon = "icon-stethoscope"
   
   [[params.services.item]]
