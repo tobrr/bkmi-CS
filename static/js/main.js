@@ -432,6 +432,19 @@
 
 		}
 	};
+	
+	var popupModal = function() {
+		$('.popup-modal').magnificPopup({
+          type: 'inline',
+          preloader: false,
+          focus: '#username',
+          modal: false
+        });
+        $(document).on('click', '.popup-modal-dismiss', function (e) {
+
+          $.magnificPopup.close();
+        });
+	};
 
 
 	
@@ -466,6 +479,8 @@
 		aboutAnimate();
 		countersAnimate();
 		contactAnimate();
+		
+		popupModal();
 		
 
 	});

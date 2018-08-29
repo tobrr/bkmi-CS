@@ -1,47 +1,51 @@
 <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
 <html>
-<head>
-	
-	{{ partial "head.html" . }}
-
-</head>
-<body>
-
-	{{ partial "header.html" . }}
-
-	{{ if and (isset .Site.Params "slider") (.Site.Params.slider.enable) }}
-		{{ partial "slider.html" . }}
-	{{ end }}
-	
-	{{ partial "work.html" . }}
+    <head>
+        {{ partial "head.html" .}}
+    </head>
+    <body>
+        {{ if .Site.Params.nav.show_nav }}
+            {{ partial "nav.html" .}}
+		{{ end }}
+        
+		{{ partial "hero.html" .}}
+		
+		
+        {{ partial "intro.html" .}}
 
 
-	{{ if and .Site.Data.service .Site.Data.service.enable }}
-		{{ partial "service.html" . }}
-	{{ end }}
+		{{ if .Site.Params.testimonials.enable }}
+        	{{ partial "testimonials.html" .}}
+		{{ end }}
 
-{{ if and (isset .Site.Params "wrapper") (.Site.Params.wrapper.enable) }}
-		{{ partial "wrapper.html" . }}
-	{{ end }}
+		{{ if .Site.Params.services.enable }}
+        	{{ partial "services.html" .}}
+		{{ end }}
 
-	{{ if and (isset .Site.Params "feature") (.Site.Params.feature.enable) }}
-		{{ partial "feature.html" . }}
-	{{ end }}
+		{{ if .Site.Params.about.enable }}
+        	{{ partial "about.html" .}}
+		{{ end }}
+		
+		{{ if .Site.Params.work.enable }}
+       		{{ partial "work.html" .}}
+       	{{ end }}
 
+		{{ if .Site.Params.counters.enable }}
+        	{{ partial "counters.html" .}}
+        {{ end }}
 
-	
+		{{ if .Site.Params.contact.enable }}
+        	{{ partial "contact.html" .}}
+        {{ end }}
 
-	<!--{{ if and (isset .Site.Params "call") (.Site.Params.call.enable) }}-->
-	<!--	{{ partial "call-to-action.html" . }}-->
-	<!--{{ end }}-->
+        {{ if .Site.Params.footer.enable }}
+        	{{ partial "footer.html" .}}
+        {{ end }}
 
-	<!--{{ if .Site.Data.testimonial.enable }}-->
-	<!--	{{ partial "testimonial.html" . }}-->
-	<!--{{ end }}-->
-	
-	{{ partial "contact.html" . }}
-	
-	{{ partial "footer.html" . }}
-
-</body>
+        {{ partial "js.html" .}}
+    </body>
 </html>

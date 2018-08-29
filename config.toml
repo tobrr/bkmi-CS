@@ -1,105 +1,332 @@
 baseURL = "https://www.baukoma-marketimpact.ch/"
 languageCode = "de-ch"
 title = "Baukoma-Marketimpact"
-theme = "airspace-hugo"
-#theme = "hugo-elate-theme"
+theme = "hugo-elate-theme"
 
 
-[menu]
-
+  #-----------------------------------------------------------------------------------------------------#
+  #Menu Header
+  [menu]
+  
   [[menu.header]]
-    weight = 2
-    name = "Work"
-    url = "/work"
-  [[menu.header]]
-    weight = 3
-    name = "News"
-    url = "/blog"
-  [[menu.header]]
-    weight = 4
-    name = "Dienstleistungen"
-    url = "/service"
-  [[menu.header]]
-    weight = 5
-    name = "Kontakt"
-    url = "/contact"
-
-  [[menu.footer]]
-    weight = 1
-    name = "Über uns"
-    url = "#"
-  [[menu.footer]]
-    weight = 2
-    name = "Kontakt"
-    url = "#"
-  [[menu.footer]]
-    weight = 3
-    name = "Events"
-    url = "#"
-  [[menu.footer]]
-    weight = 4
-    name = "News"
-    url = "#"
-  [[menu.footer]]
-    weight = 5
-    name = "Impressum"
-    url = "#"
-
-# The site's parameters
-[params]
-
-  # If you want to remove the copyright text you need a Themefisher license.
-  # This license is offered with a 50% discount for all Hugo users.
-  # For information see https://github.com/gohugoio/hugoThemes/issues/260
-
+  weight = 3
+  name = "Blog"
+  url = "/blog"
+  
+  #-----------------------------------------------------------------------------------------------------#
+  #elate theme
+  #custom css
+  [params]
   dateFormat = "6 January 2006"
-
   home = "Home"
+  custom_css = ["css/bkmi.css"]
+  
+  #-----------------------------------------------------------------------------------------------------#
+  # Hero section
+  [params.hero]
+  title = '<div class="bkmi"><img src="img/bmAG_RGB.svg" ></div>'
+  subtitle = ""
+  background = 'img/wall.jpg'
+  
+  [params.hero.stripe]
+  enable = false
+  
+  #-----------------------------------------------------------------------------------------------------#
+  # Intro section
+  # Available icons: http://simplelineicons.com/
+  [params.intro]
 
-  [params.slider]
-    enable = true
-    title = "b,m!"
-    subtitle = "subtitle"
-    logo = "/img/logo.png"
+  [[params.intro.item]]
+  col_size = "col-12 col-sm-4"
+  title = "RUVIDO – einfach stark!"
+  description = "Eine umfassende Image- und Marketingkampagne von der Strategie bis zum Werbe-Truck."
+  content_url = "ruvido"
+  content =  '<p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><strong>Ruvido - einfach stark!</strong></span></span></p><p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">Elektroofenschmelzgestein, kurz EOS, ist ein qualit&auml;tsgepr&uuml;fter Recyclingbaustoff, welcher seit Jahren erfolgreich als ressourcenschonendes Kiesersatzmaterial mit vielen Einsatzm&ouml;glich im Hoch- und Tiefbau eingesetzt wird. EOS 100% mineralisch und &uuml;berzeugt durch seine hervorragenden Eigenschaften und das vorteilhafte Preisleistungsverh&auml;ltnis. Um EOS als werthaltiges Produktion positionieren zu k&ouml;nnen, durften wir eine umfassende Image- und Marketingstrategie erarbeiten. Folgende Dienstleistungen haben wir erbracht:</span></span></p><p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><strong>Namensgebung und Claim</strong></span></span><br /><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">Um ein Produkt erfolgreich zu vermarkten, ben&ouml;tigt es einen geeigneten Namen. Gemeinsam mit dem Kunden haben wir verschiedene Vorschl&auml;ge diskutiert und gepr&uuml;ft. Am Ende hat sich der Name <strong>Ruvido</strong> durchgesetzt. Beim Claim haben wir uns f&uuml;r &laquo;einfach stark&raquo; entschieden. Dies insbesondere auch im Zusammenhang mit dem Markenbotschafter (siehe unten).</span></span></p><p><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><strong>Logo, CD und Website</strong></span></span><br /><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">Entscheidend im Markenaufbau und der Kommunikation ist der grafische Auftritt. Wir haben sowohl Logo als auch alle grafischen Auftritte entwickelt. Auch der Webauftritt <span style="color:#0563c1"><u><a href="http://www.ruvido.ch" style="color:#0563c1; text-decoration:underline">www.ruvido.ch</a></u></span> stammt aus der Feder der Baukoma-Marketimpact AG</span></span></p><p><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><strong>Markenbotschafter</strong></span></span><br /><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">Mit dem Schwinger Remo K&auml;ser konnte man den idealen Markenbotschafter gewinnen. Nicht nur, dass er als Schwinger hervorragend mit dem Claim harmoniert, seine Familie ist seit langem mit der Stahl Gerlafingen AG verbunden. Bereits sein Urgrossvater hat im damaligen Von-Roll-Stahlwerk gearbeitet. Sein Vater Bruno K&auml;ser, war 41 Jahre f&uuml;r die Stahl Gerlafingen AG t&auml;tig.</span></span></p><p><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif"><strong>Werbeartikel</strong></span></span></span></span><br /><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">Streuartikel bieten eine hervorragende M&ouml;glichkeit, dass die Marke breit gestreut und wahrgenommen wird. Zu diesem Zweck durften wir Ruvido-Kugelschreiber produzieren.</span></span></p>'
+  button = "Get In Touch"
+  icon = "icon-bulb"
+  img = "img/references/ruvido.jpg"
+  
+  [[params.intro.item]]
+  col_size = "col-7"
+  title = "Building-Award – Die Auszeichnung für den Ingenieur am Bau"
+  description = "Wir erledigen für unseren Kunden die Organisation, die Sponsorensuche, das Drehbuch und eigentlich den ganzen Event."
+  content_url = "buildingaward"
+  content =  '<p style="margin-left:0cm; margin-right:0cm"><strong><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">Building-Award &ndash; Die Auszeichnung f&uuml;r den Ingenieur am Bau</span></span></strong></p><p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">Der Building-Award wird alle zwei Jahre ausgetragen, 2019 zum dritten Mal. Bewertet und ausgezeichnet werde herausragende, besonders bemerkenswerte und innovative Ingenieursleistungen am Bau. Rund 800 G&auml;ste werden am 6. Juni 2019 im KKL erwartet, wenn die grosse Preisverleihung stattfindet.</span></span></p><p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">Im Auftrag der Stiftung bild<em>ing </em>sind wir f&uuml;r die komplette Organisation zust&auml;ndig. Die Preisverleihung selber ist nur ein kleiner Teil. Rund 2 Jahre dauert die Vorlaufzeit. Sponsorensuche- und Betreuung, Ausschreibung, Wettbewerbsphase, Eingabenaufbereitung, Drucksachen (darunter ein rund 80-seitiges Programmheft), Drehbuch, Showclips, Ticketing und vieles mehr geh&ouml;ren zu unseren Aufgaben.</span></span></p><p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">&nbsp;Darauf sind wir stolz. </span></span></p>'
+  button = "Get In Touch"
+  icon = "icon-bulb"
+  img = "img/references/buildingaward2.jpg"
+  
+  [[params.intro.item]]
+  col_size = "col-4"
+  title = "Building-Award – Die Auszeichnung für den Ingenieur am Bau"
+  description =""
+  content_url = "buildingaward"
+  content =  '<p style="margin-left:0cm; margin-right:0cm"><strong><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">Building-Award &ndash; Die Auszeichnung f&uuml;r den Ingenieur am Bau</span></span></strong></p><p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">Der Building-Award wird alle zwei Jahre ausgetragen, 2019 zum dritten Mal. Bewertet und ausgezeichnet werde herausragende, besonders bemerkenswerte und innovative Ingenieursleistungen am Bau. Rund 800 G&auml;ste werden am 6. Juni 2019 im KKL erwartet, wenn die grosse Preisverleihung stattfindet.</span></span></p><p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">Im Auftrag der Stiftung bild<em>ing </em>sind wir f&uuml;r die komplette Organisation zust&auml;ndig. Die Preisverleihung selber ist nur ein kleiner Teil. Rund 2 Jahre dauert die Vorlaufzeit. Sponsorensuche- und Betreuung, Ausschreibung, Wettbewerbsphase, Eingabenaufbereitung, Drucksachen (darunter ein rund 80-seitiges Programmheft), Drehbuch, Showclips, Ticketing und vieles mehr geh&ouml;ren zu unseren Aufgaben.</span></span></p><p style="margin-left:0cm; margin-right:0cm"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">&nbsp;Darauf sind wir stolz. </span></span></p>'
+  button = "Get In Touch"
+  icon = "icon-bulb"
+  img = "img/references/31_slider_referenz.jpg"
+  
+  [[params.intro.item]]
+  col_size = "col-3"
+  title = "Werben Sie professionell"
+  description = ""
+  content_url = "werbeartikel"
+  content = '<img src="img/references/38_slider_werbe.jpg" /><p><strong>Werbeartikel die begeistern</strong></p><p>Sie finden unseren aktuellen Werbemittelkatalog auch&nbsp;<a href="http://www.yumpu.com/de/embed/view/6ntVlyfLoiPqgw1c" target="_blank">online</a>. Entdecken Sie bequem und einfach die besten Werbeartikel.<br />Neben bestandenen und bew&auml;hrten Klassikern wie Kugelschreibern in diversen Ausf&uuml;hrungen finden Sie ausgefallene und exklusive Kundengeschenke von Ferngl&auml;sern bis hin zum Messerset.<br />Nat&uuml;rlich bieten wir Ihnen einen Top-Service und eine schnelle Lieferung!</p><p>Kontaktieren Sie uns f&uuml;r Fragen per Telefon 031 755 85 84 oder E-Mail&nbsp;<a href="mailto:info@baukoma.ch">info@baukoma.ch</a>.</p>' 
+  button = "Get In Touch"
+  icon = "icon-bulb"
+  img = "img/references/38_slider_werbe.jpg"
+  
+  [[params.intro.item]]
+  col_size = "col-4"
+  title = "Grafikdesign"
+  description = ""
+  content_url = "grafikdesign"
+  content = '<img src="img/references/57_slider_grafik.jpg" /> <p><strong>Grafikdesign</strong></p><p>Modernes Kommunikationsdesign beinhaltet verschiedene Bereiche, wie beispielsweise das traditionelle Grafikdesign, Web-Konzepte bis hin zu den sozialen Medien. In unserem Atelier stellen wir sicher, dass Ihr Auftritt harmonisch, umfassend und als Einheit konzipiert und umgesetzt wird.</p>'
+  button = "Get In Touch"
+  icon = "icon-bulb"
+  img = "img/references/57_slider_grafik.jpg"
+  
+  [params.intro.new_layout]
+  enable = true
+  
+  [params.intro.old_layout]
+  enable = false
+  
+  [params.intro.video]
+  enable = false
+  title = "Watch the video"
+  icon = "icon-play2"
+  url = "https://vimeo.com/channels/staffpicks/93951774"
+  
+  #-----------------------------------------------------------------------------------------------------#
+  # Services section
+  [params.services]
+  enable = true
+  title = "Unsere Dienstleistungen"
+  description = "Bei uns stehen Kreativität, Fachwissen und Effizienz an erster Stelle. Zusammen sind wir ein Team und verfolgen ein Ziel, nämlich erfolgreich zu sein. Wir arbeiten als Fullservice-Agentur oder begleiten Sie modular in den von Ihnen gewünschten Bereichen."
+  
+  [[params.services.item]]
+  title = "Events"
+  description = "Firmenjubiläen, Tage der offenen Türen, Generalversammlungen oder andere Veranstaltungen. Wir begleiten Sie nach Ihren individuellen Wünschen und unter Berücksichtigung der Budgets."      
+  icon = "icon-rocket"    
+  
+  [[params.services.item]]
+  title = "Strategie und Branding"
+  description = "Modernes Kommunikationsdesign beinhaltet verschiedene Bereiche, wie beispielsweise das traditionelle Grafikdesign, Web-Konzepte bis hin zu den sozialen Medien."
+  icon = "icon-compass"
+  
+  [[params.services.item]]
+  title = "Consulting"
+  description = "Seit vielen Jahren beraten und begleiten wir Unternehmen in verschiedenen Funktionen. Unser Spezialgebiet ist alles «rund ums Bauen», aber wir beraten auch Unternehmen aus allen anderen Bereichen kompetent."
+  icon = "icon-stethoscope"
+  
+  [[params.services.item]]
+  title = "Marketing"
+  description = "Ein wirkungsvolles Marketing und die zielgruppenorientierte Kommunikation können nicht standardisiert werden. Wir analysieren zusammen Ihre individuelle Situation, strukturieren und erarbeiten die Ziele und setzen diese mit Ihnen um."      
+  icon = "icon-heart"
+  
+  [[params.services.item]]
+  title = "Produktion"
+  description = "Wir arbeiten vorwiegend als Fullservice-Agentur. Somit haben Sie mit uns einen Ansprechpartner auf den Sie sich gänzlich verlassen können. Wir arbeiten mit auserwählten Partnern zusammen, koordinieren Termine und garantieren so höchste Qualitätsansprüche."      
+  icon = "icon-diamond"
+  
+  [[params.services.item]]
+  title = "Web.etc"
+  description = "Die Zufrindenheit unserer Kundinnen und unserer Kunden steht stets im mittelpunkt bei unserem tun. Egal ob Website oder Mobile-App, Social-Media Kampagne oder online Game, wir begleiten Sie effizient und mit begeisterung auf ihrem Weg durch die Digitalen möglichkeiten."      
+  icon = "icon-hand-pointer-o"
+  
+  [[params.services.item]]
+  title = "Fotografie"
+  description = "«Die andere Art gesehen zu werden» Unter diesem Motto halten wir Ihre wichtigsten Momente fest. Die Aufnahmen machen wir entweder bei uns im Fotostudio oder am Ort des Geschehens. Professionelle und eindrucksvolle Bilder, die für sich und für Sie sprechen."
+  icon = "icon-camera"
+  
+  [[params.services.item]]
+  title = "Grafik"
+  description = "In unserem Atelier stellen wir sicher, dass Ihr Auftritt harmonisch, umfassend und als Einheit konzipiert und umgesetzt wird."      
+  icon = "icon-magic"
 
-  [params.wrapper]
-    enable = true
-    title = "Über Baukoma-Marketimpact"
-    italic = "Sie wollten schon immer gelben Kaffee, grüne Schokolade, rote Bananen oder blaue Zitronen ausprobieren? Bei uns sind Sie genau an der richtigen und kreativen Adresse."
-    paragraph = "Die Baukoma-Marketimpact AG versteht sich als Marketingspezialistin für Unternehmen rund ums Bauen. Dazu gehören Handwerksbetriebe aller Art, Betriebe aus der Baustoffindustrie, Architekturbüros, Transport- und Materiallogistiker im Baubereich, Immobilienbüros, usw.     Dank jahrelanger Branchenkenntnissen, Einblicken in die Firmen und ihre Entscheidungswege auf Kader- und Inhaberebene ist die Baukoma-Marketimpact AG in der Lage, ihren Kunden einen umfassenden Mehrwert zu bieten. Schnelle, direkte und unkomplizierte, den Bedürfnissen und dem Tempo des Bauens angepasste Lösungen. Von der Beratung und Planung bis zur Durchführung; alles aus einer Hand rund ums Bauen und Wohnen!"
-
-  [params.blog]
-    enable = true
-    title = "Get The Latest On What We're doing"
-    subtitle = "Catch up with us, anytime and anywhere"
-
-  [params.feature]
-    enable = true
-    title = "Unser Team"
-    content = "Das Team der Baukoma AG mit seinem vielfältigen Angebot und der langjährigen Erfahrung, versteht sich als Generalunternehmer in der Welt des Marketings und der Kommunikation. Mit Spezialisten in allen Bereichen sind wir Ihr idealer Partner für eine langfristige und nachhaltige Zusammenarbeit. Auch bei aussergewöhnlichen Projekten können wir Sie dank unserem grossen Netzwerk an ausgewiesenen Partnern ideal begleiten. Wir haben uns zum Ziel gesetzt, Sie persönlich und professionell in der Umsetzung Ihrer Aufgaben zu unterstützen."
-    [params.feature.button]
-      caption = "View Works"
-      url = "#"
-
-  [params.call]
-    enable = true
-    title = "We design delightful digital experiences."
-    paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
-
+  #-----------------------------------------------------------------------------------------------------#
+  # About section
+  [params.about]
+  enable = true
+  title = "Das Team"
+  description = "Die Baukoma-Marketimpact AG versteht sich als Generalunternehmer in der Welt des Marketings und der Kommunikation. Mit Spezialisten in allen Bereichen sind wir Ihr idealer Partner für eine langfristige und nachhaltige Zusammenarbeit. Auch bei aussergewöhnlichen Projekten können wir Sie dank unserem grossen Netzwerk an ausgewiesenen Partnern ideal begleiten. Wir haben uns zum Ziel gesetzt, Sie persönlich und professionell in der Umsetzung Ihrer Aufgaben zu unterstützen."
+  
+  [[params.about.item]]
+  name = "Urs Bratschi Reichelt"
+  position = "Geschäftsführer"
+  description = "Urs Bratschi Reichelt ist Gründer, Geschäftsführer und Inhaber der Baukoma-Marketimpact AG. Er hat über 20 Jahre Führungserfahrung in der Baubranche."
+  img = "img/team/u-b.png"
+  alt = "Urs Bratschi Reichelt – Geschäftsführer"
+  social = [
+    ["icon-mail2", "mailto:u-b@baukoma-marketimpact.ch"]
+  ]
+  
+  [[params.about.item]]
+  name = "Oliver Bratschi"
+  position = "Administration / Marketingassistenz"
+  description = "Oliver Bratschi ist ausgebildeter Kaufmann mit Berufsmatura. Er betreut administrative Aufgaben und unterstützt diverse Marketingprojekte."
+  img = "img/team/o-b.png"
+  alt = "Oliver Bratschi – Administration / Marketingassistenz"
+  social = [
+    ["icon-mail2", "mailto:o-b@baukoma-marketimpact.ch"]
+  ]
+  
+  [[params.about.item]]
+  name = "Lenka Reichelt Bratschi"
+  position = "Fotografin"
+  description = "Lenka Reichelt Bratschi ist Fotografin. Sie stellt u.a. Architektur ins beste Licht, hält Events fest und ist verantwortlich für Firmen-, Team-, Portrait- und Modeaufnahmen."
+  img = "img/team/l-r.png"
+  alt = "Lenka Reichelt Bratschi – Fotografin"
+  social = [
+    ["icon-mail2", "mailto:foto@baukoma-marketimpact.ch"]
+  ]
+  
+  [[params.about.item]]
+  name = "Sandra Kummer"
+  position = "Grafik"
+  description = "Sandra Kummer ist Polygrafin und zuständig für die visuelle Gestaltung inkl. Druckvorstufe."
+  img = "img/team/s-k.png"
+  alt = "Sandra Kummer – Grafik"
+  social = [
+    ["icon-mail2", "mailto:s-k@baukoma-marketimpact.ch"]
+  ]
+  
+  [[params.about.item]]
+  name = "Tobias Haffner"
+  position = "Web- und Social-Media-Artist"
+  description = "Tobias Haffner ist ausgebildeter Informatiker mit Berufsmatura. Er ist zuständig für die Konzeption und Umsetzung von Webseiten und Online-Kampagnen."
+  img = "img/team/t-h.png"
+  alt = "Tobias Haffner – Web- und Social-Media-Artist"
+  social = [
+    ["icon-mail2", "mailto:t-h@baukoma-marketimpact.ch"]
+  ]
+  
+  #-----------------------------------------------------------------------------------------------------#
+  # Work section
+  [params.work]
+  enable = true
+  title = "News"
+  description = ""
+  footertext = ""
+  
+  [[params.work.row]]
+  img = "work_1.jpg"
+  alt = "Image2"
+  title = "22. Juni 2017"
+  subtitle = "Die mobile Fussgängerbrücke zum Jet d'Eau gewinnt Building-Award 2017"
+  
+  #-----------------------------------------------------------------------------------------------------#
+  # Contact section
   [params.contact]
-    enable = true
-    title = "Konntaktieren Sie uns"
-    subtitle = "Hinterlassen Sie uns eine unverbindliche Anfrage und wir melden uns schon bald bei Ihnen."
-    [params.contact.form]
-      name = "Ihr Name"
-      email = "Ihre E-Mail"
-      subject = "Ihr Anliegen"
-      message = "Ihre Nachricht"
-      button = "Absenden"
-    [params.contact.box]
-      title = "Baukoma-Marketimpact"
-      address = "Rainackerstrasse 4 . Postfach 111 . 4562 Biberist . "
-      email = "info@baukoma.ch"
-      phone = "T +41 31 755 85 84 . F +41 31 755 85 82"
-    [params.contact.gmaps]
-      title = "Unser Standort"
+  enable = true
+  google_iframe_map = true
+  google_iframe_embedcode = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43384.34006453065!2d7.539632807656666!3d47.186809262625395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e140c6995ba39%3A0x82b1e8190e45d8!2sBaukoma+AG!5e0!3m2!1sde!2sch!4v1535377108097" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>'
+  google_api_map = false
+  form = true
+  title = "Kontaktieren Sie uns"
+  description = "Wir haben immer ein offenes Ohr und gute Ideen. Wir freuen uns auf Ihren Anruf, eine Nachricht und noch mehr über Ihren Besuch."
+  # Available icons: http://simplelineicons.com/
+  details = [
+    ["icon-home", "Baukoma-Marketimpact AG . Rainackerstrasse 4 . Postfach 111 . 4562 Biberist"],
+    ["icon-phone", "T +41 31 755 85 84 . F +41 31 755 85 82"],
+    ["icon-envelope", "info@baukoma-marketimpact.ch"],
+    ["icon-globe", '<a href="//www.baukoma-marketimpact.ch" target="_blank">www.baukoma-marketimpact.ch</a>']
+  ]
+  
+  name = "Ihr Name"
+  email = "Ihre E-Mail"
+  phone = "Telefon"
+  subject = "Ihr Anliegen"
+  message = "Ihre Nachricht"
+  button = "Absenden"
+  
+
+
+  
+  
+  [params.blog]
+  enable = true
+  title = "Get The Latest On What We're doing"
+  subtitle = "Catch up with us, anytime and anywhere"
+
+
+  
+  
+  
+  #-----------------------------------------------------------------------------------------------------#
+  
+  
+    # Testimonials section
+  [params.testimonials]
+  enable = false
+  title = "Testimonials"
+  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+  
+  [[params.testimonials.item]]
+  quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+  person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+  img = "person1.jpg"
+  alt = "Person1"
+  
+  [[params.testimonials.item]]
+  quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
+  person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+  img = "person2.jpg"
+  alt = "Person2"
+  
+  [[params.testimonials.item]]
+  quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
+  person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+  img = "person3.jpg"
+  alt = "Person3"
+  
+  
+  # Counters section
+  [params.counters]
+  enable = false
+  title = "Zahlen"
+  background = "img/wall.jpg"
+  
+  [[params.counters.item]]
+  description = "Events durchgeführt"
+  icon = "icon-bullhorn"
+  from = 0
+  to = 48
+  interval = 50
+  speed = 5000
+  
+  [[params.counters.item]]
+  description = "Fotoshootings"
+  icon = "icon-camera"
+  from = 0
+  to = 302
+  interval = 50
+  speed = 5000
+  
+  [[params.counters.item]]
+  description = "Umgesetzte Layouts "
+  icon = "icon-paint-brush"
+  from = 0
+  to = 630
+  interval = 50
+  speed = 5000
+  
+  [[params.counters.item]]
+  description = "Zufridene Kunden"
+  icon = "icon-people"
+  from = 0
+  to = 248
+  interval = 50
+  speed = 5000
+
+
+  # Footer section
+  [params.footer]
+  enable = false
+  copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
+  links = [
+    ["icon-twitter", "#twitter"],
+    ["icon-facebook", "#facebook"],
+    ["icon-youtube", "#youtube"]
+  ]

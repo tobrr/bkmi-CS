@@ -1,0 +1,186 @@
+
+#fh5co-home .text-inner h1 {
+    font-size: 50px;
+    color: white;
+    margin: -230px 0px 0 -18px;
+}
+
+.logo .bkmi {
+    background-color: white;
+    width: 9em;
+    padding: 1.3em 0em;
+    margin: 0 auto;
+}
+
+
+.logo .bkmi img {
+    width: 200px;
+}
+
+#fh5co-intro {
+
+    margin-top: 0px; 
+
+}
+
+
+#fh5co-intro .intro-items>div {
+    display: flex;
+    align-items: flex-end;
+}
+
+#fh5co-intro .container .row.intro-items {
+    width: 100%;
+    margin: 0px 0px 0 0px;
+ 
+}
+
+
+
+#fh5co-intro .intro-items img {
+    width: 100%;
+}
+
+
+
+#fh5co-intro .intro-items .overlay:hover {
+    opacity: 1;
+    padding: 1em;
+    cursor: pointer;
+    color: white;
+}
+
+
+#fh5co-intro .intro-items .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #4c2888a8;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…AiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
+    background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #ea4f50), color-stop(1, #c5393a));
+    background-image: -webkit-repeating-linear-gradient(top , #ea4f50cc 0%, #c5393a 100%);
+    background-image: repeating-linear-gradient(to bottom , #ea4f50c9 0%, #c5393a 100%);
+    opacity: 0;
+    -webkit-transition: .3s all;
+    -o-transition: .3s all;
+    transition: .3s all;
+    text-align: center;
+}
+
+
+#fh5co-intro .intro-items .overlay h2 {
+    /*color:#f8b801;*/
+    color: white;
+    font-size: 1.2em;
+    
+    
+}
+
+
+
+
+.white-popup-block {
+    background: #FFF;
+    padding: 20px 30px;
+    text-align: left;
+    max-width: 650px;
+    margin: 40px auto;
+    position: relative;
+}
+
+.white-popup-block img {
+    width: 100%;
+    margin: 15px 0 12px 0;
+}
+
+.intro-items>div {
+
+    padding: 0;
+}
+
+
+#fh5co-intro .fh5co-block > .fh5co-text .fh5co-intro-icon {
+    font-size: 50px;
+    color: #cd5c61;
+    margin-bottom: 30px;
+    display: block;
+}
+
+
+#fh5co-home .gradient {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    opacity: .1;
+    -webkit-backface-visibility: hidden;
+    background-color: #2b2b2b91;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…AiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
+    background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #7b3f75), color-stop(1, #c24d67));
+    background-image: -webkit-repeating-linear-gradient(top left, #7b3f75 0%, #c24d67 100%);
+    background-image: repeating-linear-gradient(to bottom right, #7b3f75 0%, #c24d67 100%);
+    background-image: -ms-repeating-linear-gradient(top left, #7b3f75 0%, #c24d67 100%);
+}
+
+#fh5co-home {
+    background-color: transparent;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    width: 100%;
+    background-color: #f8b801;
+    color: #fff;
+    overflow: hidden;
+}
+
+.fh5co-person {
+    border: 2px solid #f2f2f2;
+    padding: 80px 30px 30px 30px;
+    float: left;
+    width: 100%;
+    position: relative;
+    margin: 0 0 72px 0;
+}
+
+/*.fh5co-person .social {*/
+/*    padding: 0;*/
+/*    margin: -28px -22px 0 0;*/
+/*    float: right;*/
+/*    width: auto;*/
+/*}*/
+
+
+
+#fh5co-services .gradient {
+     background-color: #c24d67; 
+     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…AiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+); 
+     background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #7b3f75), color-stop(1, #c24d67)); 
+     background-image: -webkit-repeating-linear-gradient(top left, #7b3f75 0%, #c24d67 100%); 
+     background-image: repeating-linear-gradient(to bottom right, #151454 0%, #ea4f50 100%); 
+    background-image: -ms-repeating-linear-gradient(top left, #7b3f75 0%, #c24d67 100%);
+    overflow: hidden;
+    position: relative;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    opacity: 1.0;
+}
+
+
+.col-md-8 {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+
